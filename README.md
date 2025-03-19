@@ -25,7 +25,7 @@ The proposed project is an **AI-based medical diagnosis system** that predicts m
 
 The following diagram represents the **end-to-end workflow** of the system:
 
-![System Architecture](molel.png)
+![System Architecture](https://github.com/kesal-us/HealthCareAIML/blob/main/model.png)
 
 
 ---
@@ -38,7 +38,7 @@ The following diagram represents the **end-to-end workflow** of the system:
 
 ### **Technologies Used**
 - **Programming Language**: Python
-- **Development Environments**: Jupyter Notebook, o	VS Code  
+- **Development Environments**: Jupyter Notebook, VS Code  
 - **Web-framework**: Streamlit
 - **Machine Learning Libraries**: Scikit-learn, Pandas, NumPy, Imbalanced-learn, Statsmodels
 - **Visualization Tools**: Matplotlib, Seaborn
@@ -46,15 +46,17 @@ The following diagram represents the **end-to-end workflow** of the system:
   
 
 ### **Supported Disease Predictions**
-| Disease          | Model Type             | Accuracy |
-|-----------------|------------------------|----------|
-| Diabetes        | Logistic Regression    | 98.25%   |
-| Breast Cancer   | Random Forest          | 98.25%   |
-| Heart Disease   | SVM                     | 85.25%   |
-| Kidney Disease  | Decision Tree          | 99.00%   |
-| Liver Disease   | Random Forest          | 78.00%   |
-| Malaria        | CNN (Deep Learning)     | 96.00%   |
-| Pneumonia       | CNN (Deep Learning)     | 95.00%   |
+| Disease                         | Best Performing Model             | Test Accuracy |
+|---------------------------------|----------------------------------|--------------|
+| Heart Disease Prediction       | Random Forest                    | 98.54%       |
+| Lung Cancer Prediction         | Logistic Regression              | 91.39%       |
+| Kidney Disease Prediction      | Random Forest                    | 100%         |
+| Breast Cancer Prediction       | Random Forest                    | 98.25%       |
+| Hypo-Thyroid Prediction        | Decision Tree                    | 99.33%       |
+| Parkinson’s Disease Prediction | Gradient Boosting                | 96.17%       |
+| Diabetes Prediction            | Ensemble (Voting Classifier)     | 81.25%       |
+| Liver Disease Prediction       | Random Forest                    | 80.82%       |
+
 
 
 ## Conclusion
